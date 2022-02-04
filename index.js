@@ -64,6 +64,8 @@ function makeSound(key){
       }
 }
 
+
+//ADDING EFFECTS TO BUTTONS 
 function playAnimation(currentkey){
     var activeKey = document.querySelector("." + currentkey);
     activeKey.classList.add("pressed");
